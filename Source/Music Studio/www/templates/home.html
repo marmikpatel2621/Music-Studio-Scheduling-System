@@ -1,0 +1,39 @@
+<style>
+  .full button span {
+    background-color: limegreen;
+    border-radius: 32px;
+    color: black;
+  }
+  .partially button span {
+    background-color: orange;
+    border-radius: 32px;
+    color: black;
+  }
+</style>
+<ion-view cache-view="false" title="Home" id="page4">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <!--<h4 id="home-heading3" style="color:#000000;float:right;"> {{email}}</h3>-->
+        <h5 id="home-heading5" style="color:#000000;">Select Date and Room to reserve the Music studio room</h5>
+        <div class="row">
+            
+      <div class="col-md-6">
+        <p class="input-group">
+          <input type="text" ng-change="changedate(dt)" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" datepicker-options="dateOptions" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+          <span class="input-group-btn">
+            <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+          </span>
+        </p>
+      </div>
+        </div>
+        <div class="spacer" style="width: 284.545px; height: 34px;"></div>
+        
+        <div class="button-bar">
+            <button id="home-button12" class="button button-balanced  button-small" ng-click="time()">Room 1</button>
+            <button id="home-button16" class="button button-balanced  button-small" ng-click="time()">Room 2</button>
+            <button id="home-button15" class="button button-balanced  button-small" ng-click="time()">Room 3</button>
+            <button id="home-button18" class="button button-balanced  button-small" ng-click="time()">Room 4</button>
+        </div>
+        
+         
+    </ion-content>
+</ion-view>

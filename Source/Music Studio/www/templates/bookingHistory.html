@@ -1,0 +1,24 @@
+<ion-view title="Booking History" id="page1">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+     <div id='nobookingcount'>
+         <h2>No Bookings</h2>
+         </div>
+     <div id='bookingcount'>
+         <center>
+      <table class="table table-hover" align="center">
+             <tr class="item">
+                 <th class="column"> Room </th>
+                    <th class="column"> Date </th>
+                    <th class="column"> Time </th>
+                </tr>
+            
+            <tr ng-repeat="item in itemsList" class="item" >
+                <td class="column">{{item.room}}</td>
+                <td class="column">{{item.date}}</td>
+                <td class="column">{{item.time}}</td>
+            </tr>
+            
+      </table></center>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,22 @@
+<ion-view title="Signup" id="page6">
+    <ion-content overflow-scroll="true" padding="true" scroll="false" class="has-header">
+        <div class="spacer" style="width: 300px; height: 15px;"></div>
+        <form class="list">
+            <ion-list>
+                <label class="item item-input" name="name">
+                    <input type="text" placeholder="Name" ng-model="username">
+                </label>
+                <label class="item item-input" name="email">
+                    <input type="email" placeholder="example@mail.com" ng-model="email">
+                </label>
+                <label class="item item-input" name="password">
+                    <input type="password" placeholder="Password">
+                </label>
+                <label class="item item-input" name="cpassword">
+                    <input type="password" placeholder="Confirm Password" ng-model="password">
+                </label>
+            </ion-list>
+            <a ng-click="register(email, password)" id="signup-button6" style="font-weight:;" class="button button-balanced  button-block icon ion-android-person-add">Sign up</a>
+        </form>
+    </ion-content>
+</ion-view>
