@@ -11,8 +11,18 @@ John, a music producer, owns a studio with multiple recording rooms. He has clie
   - For John, he needs a way to see all the bookings requested and approve/reject them. Once he approves/rejects the
 
 * **Technologies:**
-  Frontend: HTML, CSS, Angular JS
-  Framework: ionic
-  Back-end: REST, J2EE
-  Database: MongoDB (MongoLab)
+
+  - Frontend: HTML, CSS, Angular JS
+  - Framework: ionic
+  - Back-end: REST, J2EE
+  - Database: MongoDB (MongoLab)
   
+* **Features:**
+  - User can create an account and login to the App.
+  - Three consecutive failures will allow user to reset password.
+  - User can book a studio room and book a time slot using calendar view for a particular date.
+  - User can see the booking history.
+  - Password and Email can be reset using Account setting.
+  - John will be notified by an SMS alert for a successful booking.
+  - Admin can see the booking details of each date.
+  - User and Admin has ability to logoff.	
