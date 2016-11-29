@@ -3,6 +3,7 @@
 A hybrid application developed as a part of UMKC Hackathon Spring - 2016. This is the usecase provided by Adknowledge Inc. to create a application for music studio scheduling. 
 
 * **Usecase Statement:**
+
 John, a music producer, owns a studio with multiple recording rooms. He has clients (bands, musicians) who would like to lease the rooms from time to time. Develop an application where a client can book time to record in the studio. The application should be both mobile and desktop browser friendly														
 												
 *Functional Requirements*
