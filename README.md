@@ -7,9 +7,9 @@ A hybrid application developed as a part of UMKC Hackathon Spring - 2016. This i
 John, a music producer, owns a studio with multiple recording rooms. He has clients (bands, musicians) who would like to lease the rooms from time to time. Develop an application where a client can book time to record in the studio. The application should be both mobile and desktop browser friendly														
 												
   *Functional Requirements*
-  - The Application should require users to login with their email address and a pre-assigned password. The login page should have a      forgot password option as well.												   
-  - Once logged in, users should be presented with calendars showing their current bookings, and calendars for every studio room to book  time from. Every time a booking is made, John needs to be notified by email or a text message.
-  - For John, he needs a way to see all the bookings requested and approve/reject them. Once he approves/rejects the
+    - The Application should require users to login with their email address and a pre-assigned password. The login page should have a      forgot password option as well.												   
+    - Once logged in, users should be presented with calendars showing their current bookings, and calendars for every studio room to book  time from. Every time a booking is made, John needs to be notified by email or a text message.
+    - For John, he needs a way to see all the bookings requested and approve/reject them. Once he approves/rejects the
 
 * **Technologies:**
 
