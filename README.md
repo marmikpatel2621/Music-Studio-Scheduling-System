@@ -7,9 +7,9 @@ John, a music producer, owns a studio with multiple recording rooms. He has clie
 												
 *Functional Requirements*
 
-  	- The Application should require users to login with their email address and a pre-assigned password. The login page should have a      forgot password option as well.														
-	- Once logged in, users should be presented with calendars showing their current bookings, and calendars for every studio room to book  time from. Every time a booking is made, John needs to be notified by email or a text message.														
-  	- For John, he needs a way to see all the bookings requested and approve/reject them. Once he approves/rejects the
+  - The Application should require users to login with their email address and a pre-assigned password. The login page should have a      forgot password option as well.												   
+  - Once logged in, users should be presented with calendars showing their current bookings, and calendars for every studio room to book  time from. Every time a booking is made, John needs to be notified by email or a text message.
+  - For John, he needs a way to see all the bookings requested and approve/reject them. Once he approves/rejects the
 
 * **Technologies:**
 
